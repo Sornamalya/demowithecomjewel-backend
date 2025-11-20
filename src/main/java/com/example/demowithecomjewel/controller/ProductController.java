@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://customised-jewels.netlify.app")
 public class ProductController {
 
     private final ProductRepo productRepo;
